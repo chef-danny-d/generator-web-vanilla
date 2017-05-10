@@ -1,16 +1,16 @@
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and <%- generatorName %> using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-web-vanilla using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
-npm install -g <%- generatorName %>
+npm install -g generator-web-vanilla
 ```
 
 Then generate your new project:
 
 ```bash
-yo <%- yoName %>
+yo web-vanilla
 ```
 
 ## Getting To Know Yeoman
