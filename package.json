@@ -1,14 +1,14 @@
 {
   "name": "generator-web-vanilla",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yeoman generator for creating a brand-new vanilla project",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "yeoman-generator"
   ],
-  "author": "olivbau",
+  "author": {
+    "name" : "Baurain Olivier",
+    "url" : "https://github.com/olivbau"
+  },
   "license": "ISC",
   "repository": {
     "type": "git",
