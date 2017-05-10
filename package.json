@@ -1,0 +1,17 @@
+{
+  "name": "generator-web-vanilla",
+  "version": "1.0.0",
+  "description": "Yeoman generator for creating a brand-new vanilla project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "olivbau",
+  "license": "ISC",
+  "dependencies": {
+    "yeoman-generator": "^1.1.1"
+  }
+}
