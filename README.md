@@ -4,13 +4,13 @@ First, install [Yeoman](http://yeoman.io) and generator-web-vanilla using [npm](
 
 ```bash
 npm install -g yo
-npm install -g generator-web-vanilla
+npm install -g generator-web-vanilla-static
 ```
 
 Then generate your new project:
 
 ```bash
-yo web-vanilla
+yo web-vanilla-static
 ```
 
 ## Getting To Know Yeoman
