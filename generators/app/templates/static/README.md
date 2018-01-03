@@ -1,4 +1,4 @@
-# Agata Bielen
+# {Project Name}
 *Freelance website based on PSD template seen on:* ...
 
 # Solutions
