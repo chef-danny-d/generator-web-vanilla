@@ -18,4 +18,4 @@ The mockup was NOT done by me nor will I ever claim the creation of it. Credit i
 
 # Wireframe
 ## Home
-![Wireframe](https://github.com/chef-danny-d/agata-bielen/blob/master/home.jpg "Wireframe")
+![Wireframe](... "Wireframe")
