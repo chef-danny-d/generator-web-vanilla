@@ -1,3 +1,4 @@
+<!-- this is just my sample README, feel free to edit this as your prject requires it -->
 # {Project Name}
 *Freelance website based on PSD template seen on:* ...
 
