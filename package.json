@@ -1,18 +1,18 @@
 {
   "name": "generator-web-vanilla-static",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Yeoman generator for creating a static web project",
   "keywords": [
     "yeoman-generator"
   ],
   "author": {
-    "name": "Daniel Papp (fork from Baurain Olivier)",
+    "name": "Daniel Papp",
     "url": "https://github.com/chef-danny-d"
   },
   "license": "",
   "repository": {
-    "type": "",
-    "url": ""
+    "type": "git",
+    "url": "https://github.com/chef-danny-d/generator-web-vanilla.git"
   },
   "files": [
     "generators"
