@@ -6,13 +6,13 @@
     "yeoman-generator"
   ],
   "author": {
-    "name": "Daniel Papp (fork from Baurain Olivier)",
+    "name": "Daniel Papp",
     "url": "https://github.com/chef-danny-d"
   },
   "license": "",
   "repository": {
-    "type": "",
-    "url": ""
+    "type": "git",
+    "url": "https://github.com/chef-danny-d/generator-web-vanilla.git"
   },
   "files": [
     "generators"
