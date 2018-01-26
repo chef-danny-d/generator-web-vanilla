@@ -16,8 +16,18 @@ npm install -g generator-web-vanilla-static
 #### Creating your new project
 
 ```bash
-cd your-parent-directory
+mkdir your-director
+cd your-directory
 yo web-vanilla-static
+```
+#### Making it a git repo
+*note that you need to go on https://github.com first and create a repo online, only after that can you initialize it*
+
+```bash
+git init
+git remote add origin https://github.com/<username>/<reponame>.git
+git commit -m "init"
+git push -u origin master
 ```
 
 ## A little about Yeoman
