@@ -1,22 +1,11 @@
 'use strict';
-const path = require('path');
-const Generator = require('yeoman-generator');
-const askName = require('inquirer-npm-name');
-const _ = require('lodash');
-const extend = require('deep-extend');
-const mkdirp = require('mkdirp');
-
-function makeGeneratorName(name) {
-  name = _.kebabCase(name);
-  name = name.indexOf('generator-') === 0 ? name : 'generator-' + name;
-  return name;
-}
+var Generator = require('yeoman-generator');
 
 module.exports = class extends Generator {
-  initializing() {
+  /*initializing() {
     this.props = {};
-  }
-
+  }*/
+  /*
   prompting() {
     return askName({
       name: 'name',
@@ -29,48 +18,12 @@ module.exports = class extends Generator {
     }, this).then(props => {
       this.props.name = props.name;
     });
-  }
-
-  default() {
-    if (path.basename(this.destinationPath()) !== this.props.name) {
-      this.log(
-        'Your generator must be inside a folder named ' + this.props.name + '\n' +
-        'I\'ll automatically create this folder.'
-      );
-      mkdirp(this.props.name);
-      this.destinationRoot(this.destinationPath(this.props.name));
-    }
-
-    const readmeTpl = _.template(this.fs.read(this.templatePath('README.md')));
-
-    this.composeWith(require.resolve('generator-node/generators/app'), {
-      boilerplate: false,
-      name: this.props.name,
-      projectRoot: 'generators',
-      skipInstall: this.options.skipInstall,
-      readme: readmeTpl({
-        generatorName: this.props.name,
-        yoName: this.props.name.replace('generator-', '')
-      })
-    });
-
-    this.composeWith(require.resolve('../subgenerator'), {
-      arguments: ['app']
-    });
-  }
+  }*/
 
   writing() {
     this.fs.copy(
       this.templatePath('static/**/*'),
       this.destinationRoot()
     );
-  }
-
-  conflicts() {
-    this.fs.append(this.destinationPath('.eslintignore'), '**/templates\n');
-  }
-
-  install() {
-    this.installDependencies({bower: false});
   }
 };
